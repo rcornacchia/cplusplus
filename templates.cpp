@@ -68,7 +68,6 @@ void test(vector<int> &v, ContainerT &seq) {
         //       cout << *iterator << " ";
         // cout << endl;
     }
-
     high_resolution_clock::time_point end = high_resolution_clock::now();
     duration<double> time_span = duration_cast<duration<double>>(end - start);
     cout << "Vector: " << time_span.count() << " seconds.";
